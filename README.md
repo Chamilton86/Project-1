@@ -123,6 +123,6 @@ Answer the following questions to fill in the blanks:_
 
 Which URL do you navigate to in order to check that the ELK server is running? 
 -ssh azureuser@10.1.0.5
--http://40.78.3.115:5601/app/kibana
+-http://20.127.4.105:5601/app/kibana#/home
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
