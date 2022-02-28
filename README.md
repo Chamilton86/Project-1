@@ -6,13 +6,13 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  [elk-playbook](https://github.com/shonham/Shontae-s-Cybersecurity-Project-1/blob/a7aa16cf635a87bcdcdc3475a98223c9344a9578/ansible/elk-playbook.yml)
+  [elk-playbook](https://github.com/Chamilton86/Project-1/blob/6965f22f3031d4a82b214701772e5dd04ca2b818/Ansible/install-elk.yml)
 
 [filebeat-playbook](https://github.com/Chamilton86/Project-1/blob/fb7afcfdabba40ed6090d01fbd3b1a00ecd738d9/Ansible/filebeat-playbook.yml)
 
-[hosts](https://github.com/shonham/Shontae-s-Cybersecurity-Project-1/blob/ae948cf639794aa9497d8730318f2b50798dcdd8/ansible/hosts.yml)
+[hosts](https://github.com/Chamilton86/Project-1/blob/6965f22f3031d4a82b214701772e5dd04ca2b818/Ansible/hosts.yml)
 
-[metric-playbook](https://github.com/shonham/Shontae-s-Cybersecurity-Project-1/blob/ae948cf639794aa9497d8730318f2b50798dcdd8/ansible/metric-playbook.yml)
+[metric-playbook](https://github.com/Chamilton86/Project-1/blob/6965f22f3031d4a82b214701772e5dd04ca2b818/Ansible/metricbeat-playbook.yml)
 
 [pentest](https://github.com/Chamilton86/Project-1/blob/65f9e08eda8b513021af2712f9be11d0c2c80523/Ansible/pentest.yml)
 
