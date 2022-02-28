@@ -53,7 +53,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  10.1.0.4     | Linux            |
-| Elk      | Gateway  | 40.78.3.115| Linux            |
+| Elk      | Gateway  | 20.127.4.105| Linux            |
 | Web-1    | LBalancer| FTE-IP     | Linux            |
 | Web-2    | LBalancer| FTE-IP     | Linux            |
 
@@ -62,7 +62,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Elk machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 45.23.180.71
+- 20.127.4.105
 
 Machines within the network can only be accessed by Jumpbox via SSH & Private Pre-Shared key
 - Which machine did you allow to access your ELK VM?
@@ -75,7 +75,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 45.23.180.71         |
+| Jump Box | Yes                 | 99.178.80.7         |
 |          |                     |                      |
 |          |                     |                      |
 
@@ -98,8 +98,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- Web-1 10.1.0.5 
-- Web-2 10.1.0.6
+- Web-1 10.0.0.5 
+- Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
 -Webservers
