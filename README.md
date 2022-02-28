@@ -35,17 +35,17 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 - What aspect of security do load balancers protect? 
-- Load balancers protect the system from DDoS attacks by shiftinf traffic
+- Load balancers protect the machine from DDoS attacks using the shift in traffic 
 - 
 - What is the advantage of a jump box?_
-- The advantage of a jump box is to give secure access to such resources via SSH and Private Pre Shared key
+- it gives secure access to  resources via SSH and Private Shared key
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs
 - What does Filebeat watch for?
-- -Filebeat forwards and centralizes log data.  Filebeat monitors the log files or locations that you specify collects log events and forwards them either to Elasticsearch or Logstash for indexing
+- -Filebeat transfer and places log data in a central location.  Filebeat watches the log files and locations that you specify to collects log events and send them  to Elasticsearch or Logstash to be indexed
 - 
 - What does Metricbeat record?
-- -Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch of Logstash.  Metricbeat helps you monitor your servers by collecting metrics from the systme and services running on the server, such as Apache
+- -the metrics and statistics that it collects and sends them to the output that you want
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -62,7 +62,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Elk machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 20.127.4.105
+- 99.178.80.7
 
 Machines within the network can only be accessed by Jumpbox via SSH & Private Pre-Shared key
 - Which machine did you allow to access your ELK VM?
@@ -86,9 +86,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- Check for presence of docker (Installation/Update)
-- Check for presence of python3-pip (Install/Update)
-- Install Docker module
+- Check for existence of docker (Installation/Update)
+- Check for existence of python3-pip (Install/Update)
+- Install Docker 
 - Increase virtual memory
 - Download and launch docker elk container
 
