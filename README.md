@@ -114,7 +114,7 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat file to file-config.yml
 - Update the filebeat.yml file to include...
 - Run the playbook, and navigate to check that the installation worked as expected.
-![kibanaserver](https://github.com/shonham/Shontae-s-Cybersecurity-Project-1/blob/60d84b78333fafae4d4bba4a4df2463d74c25476/diagrams/kibanaserver.png)
+![kibanaserver](https://github.com/Chamilton86/Project-1/blob/e319cb422f90df56d9665f319ecd7c5b7ee3b172/Diagrams/kibana.png)
 
 Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Ansible-playbook files
