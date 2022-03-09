@@ -1,6 +1,6 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network depicted below
 
 ![Network diagram](https://github.com/Chamilton86/Project-1/blob/f5fa373b9e119f96c1ac9d53f151bcb47aa18b43/Diagrams/UNIT%2012%20HW.png)
 
